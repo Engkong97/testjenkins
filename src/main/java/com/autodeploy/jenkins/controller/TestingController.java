@@ -10,7 +10,13 @@ public class TestingController {
 	public String helloWorld() {
 		String hello = "Hello From Auto Build Jenkins :D";
 		
-		return hello;
-				
+		return hello;	
+	}
+
+	@GetMapping("/helloarya")
+	public String helloarya() {
+		String hello = "Hello Arya From Auto Build Jenkins :D";
+		
+		return hello;	
 	}
 }
