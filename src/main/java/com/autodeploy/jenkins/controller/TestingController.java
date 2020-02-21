@@ -15,8 +15,7 @@ public class TestingController {
 
 	@GetMapping("/helloarya")
 	public String helloarya() {
-		String hello = "Hello Arya From Auto Build Jenkins :D";
-		
+		String hello = "Hello Arya Nur Prasetya From Auto Build Jenkins :D";
 		return hello;	
 	}
 }
